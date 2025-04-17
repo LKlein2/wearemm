@@ -1,0 +1,25 @@
+services:
+  postgresdb:
+    image: postgres
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: dbadmin
+      POSTGRES_PASSWORD: dbadmin2020
+      POSTGRES_DB: catalog
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/data/postgresdb
+
+  mongodb:
+    image: mongo:latest
+    container_name: wearemm_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - wearemm_mongodb_data:/data/mongodb
+
+volumes:
+  postgres_data: # Added definition for postgres_data
+  wearemm_mongodb_data:

@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearemm.AppHost", "Wearemm.AppHost\Wearemm.AppHost.csproj", "{7552B596-97C9-4E0B-8124-B88D09274F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearemm.ServiceDefaults", "Wearemm.ServiceDefaults\Wearemm.ServiceDefaults.csproj", "{8F4EFE53-1966-47FA-A991-C16B1CDA5D1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{52923696-E5BD-4991-BE06-A9714A93D558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{F6DD1138-0402-4008-8BFD-2DF2ACBAAF6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearemm.Catalog", "Catalog\Wearemm.Catalog\Wearemm.Catalog.csproj", "{22539B77-5DA2-48B3-B059-F2E4CD95F9CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearemm.User", "User\Wearemm.User\Wearemm.User.csproj", "{739CD42D-90C3-4B4C-B26F-509CEC8F0517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wearemm.Catalog.MigrationService", "Catalog\Wearemm.Catalog.MigrationService\Wearemm.Catalog.MigrationService.csproj", "{4ADF62E5-020A-49F7-BFF0-2C0314C84F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7552B596-97C9-4E0B-8124-B88D09274F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7552B596-97C9-4E0B-8124-B88D09274F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7552B596-97C9-4E0B-8124-B88D09274F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7552B596-97C9-4E0B-8124-B88D09274F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4EFE53-1966-47FA-A991-C16B1CDA5D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4EFE53-1966-47FA-A991-C16B1CDA5D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4EFE53-1966-47FA-A991-C16B1CDA5D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4EFE53-1966-47FA-A991-C16B1CDA5D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22539B77-5DA2-48B3-B059-F2E4CD95F9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22539B77-5DA2-48B3-B059-F2E4CD95F9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22539B77-5DA2-48B3-B059-F2E4CD95F9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22539B77-5DA2-48B3-B059-F2E4CD95F9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739CD42D-90C3-4B4C-B26F-509CEC8F0517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739CD42D-90C3-4B4C-B26F-509CEC8F0517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739CD42D-90C3-4B4C-B26F-509CEC8F0517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739CD42D-90C3-4B4C-B26F-509CEC8F0517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADF62E5-020A-49F7-BFF0-2C0314C84F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADF62E5-020A-49F7-BFF0-2C0314C84F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADF62E5-020A-49F7-BFF0-2C0314C84F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADF62E5-020A-49F7-BFF0-2C0314C84F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22539B77-5DA2-48B3-B059-F2E4CD95F9CA} = {52923696-E5BD-4991-BE06-A9714A93D558}
+		{739CD42D-90C3-4B4C-B26F-509CEC8F0517} = {F6DD1138-0402-4008-8BFD-2DF2ACBAAF6F}
+		{4ADF62E5-020A-49F7-BFF0-2C0314C84F94} = {52923696-E5BD-4991-BE06-A9714A93D558}
+	EndGlobalSection
+EndGlobal

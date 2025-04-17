@@ -1,0 +1,6 @@
+### Create a new Genre
+POST https://localhost:7174/genres
+Content-Type: application/json
+{
+  "name": "Rock"
+}
