@@ -16,3 +16,5 @@ docker-compose.override.yml
 
 # Ignore Visual Studio files
 .vs/
+/Backend/Catalog/Wearemm.Catalog/*.user
+*.user
