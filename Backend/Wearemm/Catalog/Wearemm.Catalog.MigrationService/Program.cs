@@ -5,6 +5,8 @@ using Wearemm.Catalog.MigrationService;
 var builder = Host.CreateApplicationBuilder(args);
 
 builder.AddServiceDefaults();
+builder.AddNpgsqlDbContext<CatalogDbContext>(connectionName: "postgresdb");
+
 builder.Services.AddHostedService<Worker>();
 
 builder.Services.AddOpenTelemetry()

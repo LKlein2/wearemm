@@ -16,9 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<CatalogDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("postgresdb")
-        ?? throw new InvalidOperationException("Connection string 'postgresdb' not found.")));
+builder.AddNpgsqlDbContext<CatalogDbContext>(connectionName: "postgresdb");
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateGenreValidator>();
 
